@@ -167,8 +167,11 @@ export default function PipelineDelivered() {
 
                             {/* Footer CTA */}
                             <div className="px-5 pb-5">
-                                <button className="w-full py-2.5 bg-slate-900 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2">
-                                    View Full Dossier
+                                <button
+                                    onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                                    className="w-full py-2.5 bg-slate-900 hover:bg-blue-600 text-white text-sm font-semibold rounded-lg transition-colors flex items-center justify-center gap-2"
+                                >
+                                    Get Your Free Analysis
                                     <ExternalLink className="w-4 h-4" />
                                 </button>
                             </div>
