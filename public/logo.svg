@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer chevron/house shape -->
+  <path d="M50 8L10 42V48L50 14L90 48V42L50 8Z" fill="currentColor"/>
+  <path d="M50 24L18 52V58L50 30L82 58V52L50 24Z" fill="currentColor"/>
+
+  <!-- Inner chevron -->
+  <path d="M50 46L30 62V68L50 52L70 68V62L50 46Z" fill="currentColor"/>
+
+  <!-- Circuit nodes and line on left side -->
+  <circle cx="24" cy="44" r="5" fill="currentColor"/>
+  <circle cx="38" cy="54" r="4" fill="currentColor"/>
+  <path d="M24 44L38 54" stroke="currentColor" stroke-width="4"/>
+
+  <!-- Horizontal lines on left -->
+  <path d="M10 52H20" stroke="currentColor" stroke-width="3"/>
+  <path d="M10 58H16" stroke="currentColor" stroke-width="3"/>
+</svg>
